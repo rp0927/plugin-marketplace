@@ -12,7 +12,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/vercel/vercel-plugin.git",
-        "sha": "11c32588786a9d49791372657433b88d49561874"
+        "sha": "b0b3b3261ce193a379d3e6d54358aa5b4a164517"
       },
       "homepage": "https://github.com/vercel/vercel-plugin",
       "keywords": ["vercel", "vercel deploy", "deploy to vercel"],
@@ -25,7 +25,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/getsentry/plugin-grok.git",
-        "sha": "7f9d7823a68a7668867786a573ef587ef2783f7d"
+        "sha": "91e0cb6c79730e02bcf8f7dbcb1795e677fe8cc5"
       },
       "homepage": "https://github.com/getsentry/sentry-for-ai",
       "keywords": ["sentry"],
@@ -38,7 +38,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp.git",
-        "sha": "073d4a39e9c96b17936d3cdc4bdea69977f0cca6"
+        "sha": "6e53015a16423e3758a14d82c494cfcb4c07c3ea"
       },
       "homepage": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
       "keywords": ["chrome devtools", "chrome-devtools", "devtools mcp"]
@@ -88,7 +88,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "path": "plugins/mongodb"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
@@ -102,7 +102,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/mongodb/agent-skills.git",
-        "sha": "b4ea8150a020b9babaddc6c271c6dc177c06a83f",
+        "sha": "47cc46148f53145eb9b880d2bf1aa89bc9097818",
         "path": "plugins/mongodb-atlas"
       },
       "homepage": "https://www.mongodb.com/docs/mcp-server/get-started/",
@@ -141,11 +141,24 @@
       "source": {
         "source": "url",
         "url": "https://github.com/wix/skills.git",
-        "sha": "aaec99ac7acea93013b6a831feb58467051626a6"
+        "sha": "58922ec060ee898e1b5767a30aad874981b53474"
       },
       "homepage": "https://dev.wix.com/docs/api-reference/articles/ai-tools/about-wix-skills",
       "keywords": ["wix", "wix cli", "wix mcp", "wix apps", "wix headless"],
       "domains": ["wix.com", "dev.wix.com", "manage.wix.com"]
+    },
+    {
+      "name": "netlify",
+      "description": "Skills for the Netlify platform: serverless and edge functions, Blobs storage, managed Postgres, Image CDN, forms, identity, caching, AI Gateway, framework adapters, and the Netlify CLI and deploys.",
+      "category": "deployment",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/netlify/context-and-tools.git",
+        "sha": "b4fd870cf2f1f4cc66b28ead16277e1d799b510f"
+      },
+      "homepage": "https://github.com/netlify/context-and-tools",
+      "keywords": ["netlify", "netlify deploy", "deploy to netlify"],
+      "domains": ["netlify.com", "app.netlify.com"]
     },
     {
       "name": "firecrawl",
@@ -154,7 +167,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/firecrawl/firecrawl-grok-plugin.git",
-        "sha": "af6c6c083ccfd74ae476761068ee4311a56e8282"
+        "sha": "7100b62d09a40673fe1688175431b1baff7ed262"
       },
       "homepage": "https://github.com/firecrawl/firecrawl-grok-plugin",
       "keywords": ["firecrawl", "fire crawl"],
@@ -167,7 +180,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/figma/mcp-server-guide.git",
-        "sha": "72fcf1f4b170bcaa78fa8bef2f27cce15f4d58f4"
+        "sha": "d638a5e055e8d95e0394a94350860398cf424b74"
       },
       "homepage": "https://github.com/figma/mcp-server-guide",
       "keywords": ["figma", "figma mcp"],
@@ -206,7 +219,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/railwayapp/railway-skills.git",
-        "sha": "5d1e97178f86c82795d6737928bd641e0552166a",
+        "sha": "950acebcef3445f3915ea0709876c3ba9c237a7f",
         "path": "plugins/railway"
       },
       "homepage": "https://github.com/railwayapp/railway-skills",
@@ -220,7 +233,7 @@
       "source": {
         "source": "url",
         "url": "https://github.com/stripe/ai.git",
-        "sha": "f4abb4498d2e3298c6b9e52cdd4559cebfc70a2f",
+        "sha": "583467aab18cc7113dcd2c2e20028fe73c26eaa3",
         "path": "providers/grok/plugin"
       },
       "homepage": "https://github.com/stripe/ai",
@@ -242,6 +255,109 @@
       "domains": ["tinyfish.ai", "agent.tinyfish.ai", "docs.tinyfish.ai"]
     },
     {
+      "name": "supabase",
+      "description": "Official Supabase plugin for Grok Build with bundled Supabase skills and MCP access for project management, database work, auth, storage, and Postgres best practices.",
+      "category": "database",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/supabase-community/supabase-plugin.git",
+        "sha": "8629243d1cd72309b533090a4c742f21747d02fa"
+      },
+      "homepage": "https://github.com/supabase-community/supabase-plugin",
+      "keywords": ["supabase", "supabase mcp", "supabase auth", "supabase storage", "supabase edge functions"],
+      "domains": ["supabase.com"]
+    },
+    {
+      "name": "pstack",
+      "description": "pstack (poteto-mode): rigorous agent playbooks and principles for writing less, higher-quality code. Investigation, design, review, verification, and parallel subagent workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/cursor/plugins.git",
+        "sha": "5bf2b1544db739998121a306340631963c2ff3de",
+        "path": "pstack"
+      },
+      "homepage": "https://github.com/cursor/plugins/tree/main/pstack",
+      "keywords": ["pstack", "poteto-mode", "poteto"]
+    },
+    {
+      "name": "browser-use",
+      "description": "Give Grok a real browser — the user's own Chrome, with their logins, or an isolated Browser Use Cloud browser. Use it whenever a task involves a website or web app: browsing, scraping and data extraction, filling forms, testing sites, taking screenshots, automating web workflows. Runs locally via uvx; no API key needed for local Chrome.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/browser-use/plugins.git",
+        "sha": "4749bcbfe456e5384b98281a8a66119352197f59",
+        "path": "grok"
+      },
+      "homepage": "https://browser-use.com",
+      "keywords": ["browser use", "browser-use", "browser use cloud"],
+      "domains": ["browser-use.com", "cloud.browser-use.com"]
+    },
+    {
+      "name": "datadog",
+      "description": "Datadog observability integration. Query logs, metrics, traces, and profiles, search and manage monitors, dashboards, and incidents, and investigate issues directly from Grok.",
+      "category": "observability",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datadog-labs/grok-plugin.git",
+        "sha": "083b4783095520f562534956578c8826613292a9"
+      },
+      "homepage": "https://github.com/datadog-labs/grok-plugin",
+      "keywords": ["datadog", "datadog mcp"],
+      "domains": ["datadoghq.com", "app.datadoghq.com", "datadoghq.eu"]
+    },
+    {
+      "name": "quo",
+      "description": "Official Quo MCP for Grok Build. Send individual, group, or bulk SMS; manage contacts and tasks; review message history and call transcripts; and follow up on missed calls through Quo's hosted OAuth MCP server.",
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/OpenPhone/quo-grok-plugin.git",
+        "sha": "04abd6ef9cd98ffba2105bb7437c13623c26a675"
+      },
+      "homepage": "https://github.com/OpenPhone/quo-grok-plugin",
+      "keywords": ["quo", "quo mcp", "quo business phone", "openphone"],
+      "domains": ["quo.com", "mcp.quo.com", "support.quo.com", "my.quo.com"]
+    },
+    {
+      "name": "bruin",
+      "description": "Grok integration for Bruin — MetTel's Connectivity Management System for telecom expense, network monitoring, mobility, procurement, and IT ticketing across thousands of sites and 2,200+ vendors. Ships an expert Bruin Public API skill: OAuth 2.0 client-credentials, ticket creation with per-product note schemas for Smart Phones, Cable, Ethernet, Business Line, Starlink, SD-WAN, and PIAB, inventory/site/user endpoints, ticket-lifecycle webhooks, and multi-call workflows.",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/bruin-eng/agent-skills.git",
+        "sha": "8e1435ec45a9d1f1df8a89104b01112db0feaca2"
+      },
+      "homepage": "https://github.com/bruin-eng/agent-skills",
+      "keywords": ["bruin", "bruin api", "mettel bruin", "bruin public api", "bruin ticket"],
+      "domains": ["bruin.com", "api.bruin.com", "apigw.bruin.com"]
+    },
+    {
+      "name": "omneky",
+      "description": "Omneky ads, analytics, product catalogue, and creative generation. Sign in with an Omneky account to launch and manage campaigns from Grok.",
+      "category": "development",
+      "source": {
+        "type": "local",
+        "path": "./external_plugins/omneky"
+      },
+      "homepage": "https://www.omneky.com",
+      "keywords": ["omneky", "omneky ads", "omneky mcp"],
+      "domains": ["omneky.com", "mcp.omneky.com", "app.omneky.com"]
+    },
+    {
+      "name": "modern-web-guidance",
+      "description": "Keep your coding agent up to date with modern web platform best practices",
+      "category": "development",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/GoogleChrome/modern-web-guidance.git",
+        "sha": "8dd064139b76a47d960c8e4422b73755d33bf6a0"
+      },
+      "homepage": "https://github.com/GoogleChrome/modern-web-guidance",
+      "keywords": ["modern web", "web best practices", "web guidance"]
+    },
+    {
       "name": "korean-prose-editor",
       "description": "Local Korean prose copyeditor that preserves claims, numbers, quotes, and document structure. Use for /copyedit, Korean revision, and translationese cleanup.",
       "category": "productivity",
@@ -251,7 +367,11 @@
         "sha": "edef98c52b80133e3d704a84c9e4a99102d786df"
       },
       "homepage": "https://github.com/rp0927/korean-prose-editor",
-      "keywords": ["korean-prose-editor", "korean copyedit", "copyedit korean"]
+      "keywords": [
+        "korean-prose-editor",
+        "korean copyedit",
+        "copyedit korean"
+      ]
     }
   ]
 }
