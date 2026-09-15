@@ -396,8 +396,8 @@
       }
     },
     "korean-prose-editor": {
-      "sha": "edef98c52b80133e3d704a84c9e4a99102d786df",
-      "version": "1.0.1",
+      "sha": "d751e11867fad82288253c810a0065e633191f15",
+      "version": "1.0.2",
       "components": {
         "agents": [
           {
